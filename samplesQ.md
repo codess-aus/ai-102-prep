@@ -44,10 +44,31 @@ Select only one answer.
 
 Azure Vision in Foundry Tools is designed for analyzing visual content and does not support text generation, making it unsuitable for the scenario. Code-Davinci-003 is optimized for code generation tasks and lacks the capabilities required for text generation, which disqualifies it as a viable option. DALL-E specializes in generating images from textual descriptions and does not meet the requirement for text generation. GPT-4, on the other hand, is specifically designed for generating detailed and contextually accurate text responses, making it the most appropriate choice for the given requirement.
 
-  <!-- Context:
-  - <summary> is the clickable line with the arrow.
-  - Everything inside <details> stays hidden until expanded.
-  - The blank line after </summary> helps GitHub render the markdown inside consistently.
-  -->
 </details>
 
+## Your organization plans to deploy a generative AI solution using Azure OpenAI in Foundry Models with GPT-4 for natural language responses.
+
+You need to ensure GPT-4 is available for inferencing via an endpoint.
+
+Which three actions should you perform to achieve this goal? Each correct answer presents part of the solution.
+
+Select all answers that apply.
+
+- Create a new Azure subscription.
+- Deploy a GPT-4 model
+- Provision a Microsoft Foundry resource.
+- Select GPT-4 from the catalog.
+- Set up a virtual machine.
+- Use DALL-E.
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+
+  - ✅ Deploy a GPT-4 model
+  - ✅ Provision a Microsoft Foundry resource.
+  - ✅ Select GPT-4 from the catalog.
+
+To deploy GPT-4 for inferencing, provisioning Microsoft Foundry resource is essential to establish the infrastructure. Selecting GPT-4 from the catalog ensures the correct model is chosen for the intended use case. Deploying GPT-4 to an endpoint makes it accessible for inferencing, completing the deployment process. Setting up a virtual machine is unnecessary because Microsoft Foundry uses managed endpoints. Creating a new Azure subscription is irrelevant if an existing subscription is available. Using DALL-E is incorrect because it is designed for image generation rather than natural language processing.
+https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/3-deploy-model 
+
+</details>
