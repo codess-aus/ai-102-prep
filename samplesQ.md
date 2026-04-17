@@ -41,6 +41,7 @@ Select only one answer.
   <summary><strong>The correct answers are:</strong></summary>
 
   - ✅ GPT4
+
 Azure Vision in Foundry Tools is designed for analyzing visual content and does not support text generation, making it unsuitable for the scenario. Code-Davinci-003 is optimized for code generation tasks and lacks the capabilities required for text generation, which disqualifies it as a viable option. DALL-E specializes in generating images from textual descriptions and does not meet the requirement for text generation. GPT-4, on the other hand, is specifically designed for generating detailed and contextually accurate text responses, making it the most appropriate choice for the given requirement.
 
   <!-- Context:
