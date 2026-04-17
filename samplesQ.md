@@ -1,4 +1,4 @@
-1. You are creating an assistant based on a generative Microsoft Foundry model.
+## You are creating an assistant based on a generative Microsoft Foundry model.
 
 You plan to use the system message component for prompts in the solution.
 
@@ -24,7 +24,7 @@ Select all answers that apply.
   -->
 </details>
 
-2. Your organization is developing an AI-powered application using Azure OpenAI in Foundry Models.
+## Your organization is developing an AI-powered application using Azure OpenAI in Foundry Models.
 
 You need to choose a model for text generation.
 
@@ -37,7 +37,7 @@ Select only one answer.
 - DALL-E
 - GPT-4
 
-details>
+<details>
   <summary><strong>The correct answers are:</strong></summary>
 
   - ✅ GPT4
@@ -49,3 +49,4 @@ Azure Vision in Foundry Tools is designed for analyzing visual content and does 
   - The blank line after </summary> helps GitHub render the markdown inside consistently.
   -->
 </details>
+
