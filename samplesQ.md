@@ -17,3 +17,9 @@ Select all answers that apply.
 copilot
 
 > Explain what @samples/book-app-project/utils.py does
+
+<details open>
+  <summary>📹 See it in action!</summary>
+
+  Content shown by default.
+</details>
