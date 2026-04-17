@@ -72,3 +72,33 @@ To deploy GPT-4 for inferencing, provisioning Microsoft Foundry resource is esse
 https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/3-deploy-model 
 
 </details>
+
+## You are building a GPT-based chat application that will answer questions about your company.
+
+You plan to use the Using your data feature in Azure OpenAI to ground the model with your company data.
+
+While testing, you discover that some responses are not accurate enough.
+
+You need to configure the Azure OpenAI resource to filter out less-relevant documents for responses.
+
+Which parameter should you configure?
+
+Select only one answer.
+
+- Content data
+- File name
+- Retrieved documents
+- Strictness
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+
+  - ✅ Strictness
+
+The Strictness parameter sets the threshold to categorize documents as relevant to your queries. Raising the Strictness parameter value means a higher threshold for relevance and filters out more less-relevant documents for responses. Retrieved documents specifies the number of top-scoring documents from your data index used to generate responses. Content data specifies the fields in your index that contain the main text content of each document. File name specifies the field in your index that contains the original file name of each document.
+
+Using your data with Azure OpenAI Service - Azure OpenAI | Microsoft Learn
+
+
+
+</details>
