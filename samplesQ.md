@@ -11,15 +11,15 @@ Select all answers that apply.
 - detects which language is being used in a prompt
 - helps define the assistant’s personality
 
-## Reference a Single File
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
 
-```text
-copilot
+  - ✅ defines what the model should and should not do
+  - ✅ helps define the assistant’s personality
 
-> Explain what @samples/book-app-project/utils.py does
-
-<details open>
-  <summary>📹 See it in action!</summary>
-
-  Content shown by default.
+  <!-- Context:
+  - <summary> is the clickable line with the arrow.
+  - Everything inside <details> stays hidden until expanded.
+  - The blank line after </summary> helps GitHub render the markdown inside consistently.
+  -->
 </details>
