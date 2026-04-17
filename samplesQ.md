@@ -297,3 +297,79 @@ OpenAI is the appropriate model provider because Azure OpenAI models available i
 [What are Microsoft Foundry Introduction | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/optimize-spend-and-performance-with-azure-ai-foundry-provisioned-reservations/azure-ai-foundry-overview)
 
 </details>
+
+## You are building an app that will identify the core concepts of a document by using Azure AI language.
+
+Which endpoint should you use as part of the solution?
+
+Select only one answer.
+
+- custom Named Entity Recognition (NER)
+- key phrase extraction
+- the Azure Vision in Foundry Tools API
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+  
+  - ✅ key phrase extraction
+
+You should use the key phrase extraction endpoint.
+
+The custom NER endpoint will not do key phrase extraction and the Azure Vision in Foundry Tools API can be used to process PDF files but not to extract key phrase detection.
+
+[Key Phrase Extraction | Microsoft Learn](https://learn.microsoft.com/azure/cognitive-services/language-service/key-phrase-extraction/overview)
+[Extract Insights | Microsoft Learn](https://learn.microsoft.com/training/modules/extract-insights-text-with-text-analytics-service/)
+
+</details>
+
+## You plan to build an app that will use Microsoft Foundry Service.
+
+You need to identify the methods that can be used to authenticate to Azure AI Services.
+
+Which two methods can you use? Each correct answer presents a complete solution.
+
+Select all answers that apply.
+
+- a SAML token
+- a subscription key
+- Microsoft Entra ID
+- Kerberos
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+  
+  - ✅ a subscription key
+  - ✅ Microsoft Entra ID
+
+You can use a single or multi-service subscription keys to authenticate to Azure AI Services. You can also authenticate to Azure AI Services by using a Microsoft Entra ID service principal and role-based access control (RBAC).
+Azure AI Services do not support authentication by using SAML tokens or Kerberos.
+
+[Authentication | Microsoft Learn](https://learn.microsoft.com/azure/cognitive-services/authentication?tabs=powershell#authenticate-with-an-access-token)
+
+</details>
+
+## You are building an app that will use Azure AI Custom Vision. The app will be deployed to a virtual machine in Azure.
+
+You enable firewall rules for your Azure AI Services account.
+
+You need to ensure that the app can access the service through a service endpoint.
+
+What should you do?
+
+Select only one answer.
+
+- Assign a role-based access control (RBAC) role to the Azure AI Custom Vision resource.
+- Grant access to a specific virtual network.
+- Grant access to an internet IP range.
+- Include an access token in the Authorization header.
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+  
+  - ✅ Grant access to a specific virtual network.
+
+If you enable the firewall for the Azure AI Services account, you need to allow network access to the service. You can achieve this by either allowing access from a specific virtual network or adding an IP range to the firewall rules. In this situation, the app is deployed to a virtual machine in Azure, which resides in a virtual network. You can provide access to virtual networks in Azure to access specific service endpoints.
+
+[Configure VNs | Microsoft Learn](https://learn.microsoft.com/azure/cognitive-services/cognitive-services-virtual-networks?context=%2Fazure%2Fcognitive-services%2Fcustom-vision-service%2Fcontext%2Fcontext&tabs=portal)
+
+</details>
