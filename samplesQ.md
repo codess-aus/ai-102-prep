@@ -141,11 +141,159 @@ Select only one answer.
 
 <details>
   <summary><strong>The correct answers are:</strong></summary>
-
+  
   - ✅ Enable semantic search.
 
 Enabling semantic search enhances the precision and relevance of search results by interpreting the meaning behind query terms, making it the most suitable solution for improving response accuracy in this scenario. Increasing chunk size impacts data processing but does not directly affect the accuracy of retrieved data. Deploying an additional Azure OpenAI model does not address the specific need for improving data retrieval accuracy from the search index. Using keyword search lacks semantic capabilities, which are essential for achieving the desired level of accuracy.
 
 [Make your data searchable | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/3-search-data)
+
+</details>
+
+## Your company is developing a chatbot using an Azure OpenAI in Foundry Models service to provide answers based on the company's internal knowledge base.
+
+You need to improve the chatbot's ability to retrieve and process information from the knowledge base.
+
+Each correct answer presents part of the solution. Which two actions should you take?
+
+Select all answers that apply.
+
+- Index the knowledge base with AI Search.
+- Integrate the Embeddings API.
+- Train a custom language model.
+- Use AI Vision for document analysis.
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+  
+  - ✅ Index the knowledge base with AI Search.
+  - ✅ Integrate the Embeddings API.
+
+Integrating the Embeddings API enhances semantic processing of queries, enabling the chatbot to understand user intent and respond accurately. Indexing the knowledge base with AI Search creates a searchable index, allowing the chatbot to efficiently retrieve relevant information and provide accurate responses. Training a custom language model is unnecessary because pre-trained models like GPT-4 are already optimized for this task and can handle the required functionality without additional training. Using AI Vision for document analysis is not applicable in this scenario because it is designed for image analysis rather than processing textual knowledge base documents.
+https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/3-azure-ai-servicesAzure AI services
+
+[Plan and Prepare to Develop AI Solutions | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/prepare-to-develop-ai-solutions-azure/4-understand-considerations-for-ai-engineers)
+
+</details>
+
+## Your organization is using an Azure OpenAI in Foundry Models service for document summarization across various document types.
+
+You need to ensure the AI generates summaries that meet organizational requirements.
+
+What action should you take to achieve this?
+
+Select only one answer.
+
+- Enable diagnostic logging.
+- Increase the token limit.
+- Refine prompts to specify key details.
+- Switch to a higher-cost model.
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+  
+  - ✅ Refine prompts to specify key details.
+  
+Refining prompts to specify key details ensures the AI model generates concise and relevant summaries, directly addressing the optimization requirement. Enabling diagnostic logging provides insights into system performance but does not impact the quality of generated summaries. Increasing the token limit allows for longer responses but does not inherently improve quality. Switching to a higher-cost model may enhance performance but does not guarantee better summaries without prompt optimization.
+
+[Prompt Engineering Teachniques | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/prompt-engineering?tabs=chat)
+
+</details>
+
+## You use a text-generation model deployed in Microsoft Foundry.
+
+The model produces responses that vary in tone and creativity.
+
+You need to reduce the randomness of the model’s output to make its responses more predictable and consistent.
+
+Which parameter should you configure?
+
+Select only one answer.
+
+- max_tokens
+- role
+- stop
+- temperature
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+  
+  - ✅ temperature.
+  
+You should configure the temperature parameter because it directly controls the randomness and creativity of a text-generation model’s output in Microsoft Foundry. Lowering the temperature value makes responses more focused, deterministic, and consistent, while higher values increase variability and creativity. The max_tokens parameter only limits the length of the response, the role parameter defines the message author in a chat interaction, and the stop parameter specifies sequences that halt generation rather than influencing randomness or tone.
+[Deployment Overview for Foundry Models | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/prompt-completion)
+
+</details>
+
+## You are building an app that will extract insights from video files.
+
+You need to identify which service to use. The solution must ensure that you can customize the language model used.
+
+What should you use?
+
+Select only one answer.
+
+- Azure Language in Foundry Tools
+- Azure Communication Services
+- Azure Vision in Foundry Tools
+- Azure AI Video Indexer
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+  
+  - ✅ Azure AI Video Indexer
+  
+The only service that can customize the language model for a solution based on gaining insights from videos in Azure AI Video Indexer.
+[Customise a language model in azure video indexer | Microsoft Learn](https://learn.microsoft.com/azure/azure-video-indexer/customize-language-model-overview)
+
+</details>
+
+## You have a Microsoft Foundry service.
+
+You plan to create an agent that will automate the sending of expense report emails to employees. The solution will use multiple types of agents to support the workflow.
+
+You need to create the agent while minimizing administrative effort.
+
+What should you use?
+
+Select only one answer.
+
+- the Azure AI Agent Service SDK
+- the Microsoft Foundry portal
+- the Microsoft Foundry REST API
+- the Microsoft Foundry SDK
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+  
+  - ✅ the Microsoft Foundry portal
+  - 
+The Microsoft Foundry portal is the best choice because it provides a graphical, no-code interface to create, configure, and test multiple types of agents directly within the Foundry service, which minimizes administrative and development effort. The Microsoft Foundry SDK and Azure AI Agent Service SDK are designed for developers who need programmatic control and advanced orchestration, which increases setup and maintenance overhead, while the Microsoft Foundry REST API requires scripting and endpoint management, making it less suitable when the goal is to quickly create and manage agents with minimal administrative effort.
+
+[Microsoft Foundry Introduction | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/01-introduction)
+
+</details>
+
+## You have a Microsoft Foundry service named Foundry1.
+
+You need to deploy a foundation model to Foundry1 that can generate content, summarize text, understand images, perform semantic search, and generate code.
+
+Which model provider should you use?
+
+Select only one answer.
+
+- Cohere
+- Meta
+- Mistral
+- OpenAI
+
+<details>
+  <summary><strong>The correct answers are:</strong></summary>
+  
+  - ✅ OpenAI
+
+OpenAI is the appropriate model provider because Azure OpenAI models available in Microsoft Foundry (such as GPT-4–class models) natively support a broad set of capabilities required by the scenario, including content generation, text summarization, image understanding, semantic search through embeddings, and code generation, all of which can be deployed and managed directly within a Foundry service. Cohere models primarily focus on retrieval-augmented generation and summarization, Meta models emphasize large-scale text generation without integrated multimodal and code features in Foundry, and Mistral models provide strong text reasoning but lack the full multimodal and code-generation support needed to meet all the stated requirements.
+
+[What are Microsoft Foundry Introduction | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/optimize-spend-and-performance-with-azure-ai-foundry-provisioned-reservations/azure-ai-foundry-overview)
 
 </details>
